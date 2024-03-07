@@ -1,5 +1,5 @@
 # Part 1 : Birds, heuristics, and A*
-The Goal of the problem is to arrange the given birds numbered from 1 to 5 under 10 seconds. The implemented code is taking time as it is exploring all the successor states. We need to tweak in a heuristic function that gives priority to the states which find the solution in minimum time.
+The Goal of the problem is to arrange the given birds numbered from 1 to 5 under 10 seconds. We need to tweak in a heuristic function that gives priority to the states which find the solution in minimum time.
 
 The problem can be approached in various ways. The first thing which comes to our mind is the problem is actually a sorting problem and can be implemented using bubble sort (sorting 2 adjacent positions) until the whole list is sorted. This does not consider any heuristic function, and is purely a sorting problem.
 <br>
